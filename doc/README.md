@@ -1,7 +1,7 @@
 ## 建構指令
 
 1. init project:
-```
+   ```
 npm install -g typings
 npm install -g typescript
 
@@ -13,7 +13,7 @@ npm install webpack --save-dev                # download & update package.json f
 
 typings install dt~jquery --global --save     # generate typing.json file
 tsc --init                                    # generate tsconfig.json file
-```
+   ```
 1. edit src/Message.ts
 1. edit src/app.ts
 1. edit tsconfig.json:
